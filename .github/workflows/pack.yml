@@ -19,9 +19,8 @@ jobs:
       - name: Tools installation
         run: |
           sudo apt-get update
-          sudo apt-get install --no-install-recommends -y graphviz plantuml libclang1-9 libclang-cpp1-9
-          sudo pip install LinkChecker
-
+          sudo apt-get install --no-install-recommends -y graphviz 
+          
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
