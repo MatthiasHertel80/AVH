@@ -16,6 +16,12 @@ jobs:
     name: Generate pack
     runs-on: ubuntu-22.04
     steps:
+      - name: Tools installation
+        run: |
+          sudo apt-get update
+          sudo apt-get install --no-install-recommends -y graphviz plantuml libclang1-9 libclang-cpp1-9
+          sudo pip install LinkChecker
+
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
