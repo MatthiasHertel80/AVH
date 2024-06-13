@@ -82,7 +82,7 @@ PACK_CHANGELOG_MODE="tag"
 function preprocess() {
   # add custom steps here to be executed
   # before populating the pack build folder
-  ./Documentation/Doxygen/gen_doc.sh
+  ./Doxygen/gen_doc.sh
   return 0
 }
 # custom post-processing steps
