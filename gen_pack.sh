@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Version: 3.0
 # Date: 2024-01-09
-# This bash script generates a CMSIS-NN Software Pack:
+# This bash script generates an AVH CMSIS Pack:
 #
 
 set -o pipefail
