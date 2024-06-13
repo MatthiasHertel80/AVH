@@ -19,8 +19,8 @@ jobs:
       - name: Tools installation
         run: |
           sudo apt-get update
-          sudo apt-get install --no-install-recommends -y graphviz 
-          
+          sudo apt-get install --no-install-recommends -y graphviz platuml
+
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
