@@ -73,7 +73,7 @@ PACKCHK_DEPS="
 # - release   Tag annotations, or release descriptions (in order)
 # - tag       Tag annotations only
 #
-PACK_CHANGELOG_MODE="tag"
+# PACK_CHANGELOG_MODE="tag"
 # custom pre-processing steps
 #
 # usage: preprocess <build>
