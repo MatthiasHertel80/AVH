@@ -35,6 +35,6 @@ jobs:
           packchk-version: 1.4.1
           gen-doc-script: ./Doxygen/gen_doc.sh
           doc-path: ./Documentation/html
-          gen-pack-script: ./gen_pack.sh --no-preprocess
+          gen-pack-script: ./gen_pack.sh --no-preprocess --no-changelog
           gen-pack-output: ./output
           gh-pages-branch: gh-pages
